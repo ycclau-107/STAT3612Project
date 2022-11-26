@@ -1,0 +1,10 @@
+# L1_FS_V2_Chris
+Feature Selection
+1. select features only with mean value
+2. replace zero 0 (missing data) with the mean of the column respectively
+3. select features with covaraince <= 0.9 with other features
+3. standardized
+4. plot number of important features with respect to value of C in L1 regularization using SLR
+5. examine best ROC_AUC score with different values of C in L1 regularization using SLR
+6. examine best ROC_AUC score with different combinations of the value of C in L2 regularization using SLR given feature selection by L1 regularization in step (5).
+7. given feature selection with best ROC_AUC score obtained in step(6), find the best classification model using GridsearchCV.
