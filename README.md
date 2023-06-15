@@ -1,4 +1,3 @@
-# STAT3612Project
+# STAT3612Project - MIMIC-II patient ICU Classification
 
-#20221103
-#Feature Selection -> 349 features remain
+This Project is to provide a classification model to predict the probability of death for ICU paitent.
